@@ -15,6 +15,7 @@ spec:
       labels:
         app: httpd
     spec:
+      replicas: 2
       containers:
       - name: httpd
         image: registry.redhat.io/rhel8/httpd-24:latest
